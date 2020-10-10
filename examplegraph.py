@@ -1,7 +1,6 @@
 # This file contains some specific graphs
 
 import graphClass
-
 # P is the Petersen graph
 P = graphClass.Graph()
 for i in range(1,11):
