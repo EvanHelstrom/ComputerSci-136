@@ -10,7 +10,8 @@ def addRandomVertex(G):
 
 def randomGenTree(n):
     G = graphClass.Graph()
-    for i in range (1,n+1):
+    G.addVertex(1)
+    for i in range (1,n):
         G = addRandomVertex(G)
     return G
 
